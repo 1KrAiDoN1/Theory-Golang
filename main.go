@@ -38,3 +38,7 @@ type MessageforUser interface {
 func SendMessage(n MessageforUser) {
 	fmt.Println(n.Message())
 }
+
+type SetUp struct {
+	Install string
+}
